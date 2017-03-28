@@ -1,0 +1,25 @@
+# How to add new git repo in linux 
+
+1- git clone https://url/path folder_name
+
+
+
+
+#How to upload new directory in Git from Linux 
+1- git pull 
+2- git add training
+3- git commit -m "Some Comments"
+4- git git push origin master
+
+
+
+#####################################################################################
+1- From Windows , create new director and add ,. 
+2- open git shell 
+
+
+1- git init 
+2- git add training
+3- git commit -m "Some Comments"
+4- git git push origin master
+

@@ -1,0 +1,32 @@
+inf-d-ma-spwl-001
+
+
+Debian Errata for spacewalk example , 
+
+For more details click on this , 
+follow instruction. 4
+http://defs.steve-meier.de/
+
+#Command 
+perl errata-import.pl  --server localhost --errata latest.xml  --publish
+################################## 
+NOTICE: Skipping errata DSA-3809 (mariadb-10.0 -- security update) -- No packages found
+INFO: Errata created: 0
+INFO: Errata have been created but NOT published!
+INFO: Please go to: Errata -> Manage Errata -> Unpublished to find them
+INFO: If you want to publish them please delete the unpublished Errata and run this script again
+INFO: with the --publish parameter
+
+#############################################################################
+
+2-Command 
+# perl errata-import.pl  --server localhost --errata latest.xml  --publish 
+
+
+############################################
+
+For centos 6 
+https://cefs.steve-meier.de/
+
+
+http://www.devops-blog.net/spacewalk/registering-ubuntu-and-debian-servers-with-spacewalk
